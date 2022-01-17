@@ -80,52 +80,11 @@ This project was built based entirely on the AdonisJS Version 5 framework.
   ```sh
   npm i git
   ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ManoelFer/Adonis_v5_starter.git
-   ```
-2. Access your directory
-   ```sh
-   cd Adonis_v5_starter\
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```   
-4. Duplicate file `.env.example` and rename for `.env`
-
-5. Start your MySQL and create a new database. I use the [@Laragon](https://laragon.org/download/) to manage my database
-
-6. Configure your variables in the `.env` created to connect com your database
-
-7. Run the migrations
-   ```sh
-   node ace migration:run
-   ```
-8. Run the seeds 
-   ```sh
-    node ace db:seed
-   ```
-9. Starting http server 
-   ```sh
-    node ace db:seed
-   ```
-10. To test endpoints, import this [json](INSOMNIA_JSON/Insomnia.json) into your [insomnia](https://insomnia.rest/download)
-
-<!-- USAGE EXAMPLES -->
-## This project comes with
-* Authentication with API tokens
-
-* CRUD of Users
-
-* Authorization with adonisjs/bouncer
-
-* Validator
-
-* INSOMNIA Json file in project root
+  
+* git
+  ```sh
+  npm i git
+  ```
 
 
 ### DOCKER

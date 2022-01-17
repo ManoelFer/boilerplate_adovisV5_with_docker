@@ -99,6 +99,7 @@ This project was built based entirely on the AdonisJS Version 5 framework.
 3. Open container API: ``docker-compose exec api bash``
 4. Run migrations: ``node ace migration:run``
 5. Run seeds: ``node ace db:seed``
+6. Exit the container: ``exit``
 
 
 

@@ -10,7 +10,7 @@
     <img src="github_readme_images/logo.png" alt="Logo" width="230" height="77">
   </a>
 
-  <h3 align="center">ADONIS V5 STARTER</h3>
+  <h3 align="center">ADONIS V5 STARTER WITH DOCKER</h3>
   
   <p align="center">
     An awesome ADONIS V5 API to jumpstart your projects!

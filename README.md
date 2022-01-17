@@ -128,6 +128,29 @@ This project was built based entirely on the AdonisJS Version 5 framework.
 * INSOMNIA Json file in project root
 
 
+### DOCKER
+
+1. Create network: ``network create luby_projects``
+2. Create container: ``docker-compose up -d –-build``
+3. Open container API: ``docker-compose exec api bash``
+4. Run migrations: ``node ace migration:run``
+5. Run seeds: ``node ace db:seed``
+
+
+
+<!-- USAGE EXAMPLES -->
+## This project comes with
+* Authentication with API tokens
+
+* CRUD of Users
+
+* Authorization with adonisjs/bouncer
+
+* Validator
+
+* INSOMNIA Json file in project root
+
+
 
 <!-- CONTRIBUTING -->
 ## Contributing

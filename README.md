@@ -84,6 +84,12 @@ This project was built based entirely on the AdonisJS Version 5 framework.
   ```sh
   npm i git
   ```
+  
+* Install Docker for Windows 10: https://docs.docker.com/docker-for-windows/install/
+
+* Install Docker for Linux: https://docs.docker.com/engine/install/
+
+* Install Docker for MacOS: https://docs.docker.com/docker-for-mac/install/
 
 
 ### DOCKER

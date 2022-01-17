@@ -10,7 +10,7 @@
     <img src="github_readme_images/logo.png" alt="Logo" width="230" height="77">
   </a>
 
-  <h3 align="center">ADONIS V5 STARTER</h3>
+  <h3 align="center">ADONIS V5 STARTER WITH DOCKER</h3>
   
   <p align="center">
     An awesome ADONIS V5 API to jumpstart your projects!
@@ -114,6 +114,29 @@ This project was built based entirely on the AdonisJS Version 5 framework.
     node ace db:seed
    ```
 10. To test endpoints, import this [json](INSOMNIA_JSON/Insomnia.json) into your [insomnia](https://insomnia.rest/download)
+
+<!-- USAGE EXAMPLES -->
+## This project comes with
+* Authentication with API tokens
+
+* CRUD of Users
+
+* Authorization with adonisjs/bouncer
+
+* Validator
+
+* INSOMNIA Json file in project root
+
+
+### DOCKER
+
+1. Create network: ``network create luby_projects``
+2. Create container: ``docker-compose up -d –-build``
+3. Open container API: ``docker-compose exec api bash``
+4. Run migrations: ``node ace migration:run``
+5. Run seeds: ``node ace db:seed``
+
+
 
 <!-- USAGE EXAMPLES -->
 ## This project comes with

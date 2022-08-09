@@ -95,7 +95,7 @@ This project was built based entirely on the AdonisJS Version 5 framework.
 
 ### DOCKER
 
-1. Create network: ``network create luby_projects``
+1. Create network: ``docker-compose network create luby_projects``
 2. Create container: ``docker-compose up -d –-build``
 3. Open container API: ``docker-compose exec api bash``
 4. Run migrations: ``node ace migration:run``
